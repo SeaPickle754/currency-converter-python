@@ -11,7 +11,7 @@ def get_exchange():
     else:
         return;
 #get_excange()
-dollars=int(input('How Many Dollars Do You Have?$'))
+dollars=int(input('How Many Pounds Do You Have?$'))
 rate=get_exchange()
 for i in range(dollars):
     pounds_plain=rate / dollars
